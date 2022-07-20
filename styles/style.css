@@ -74,6 +74,7 @@ article > div {
 }
 
 article > div:nth-child(5) > button {
+  font-family: "Montserrat", sans-serif;
   display: block;
   border: unset;
   color: hsl(0, 0%, 100%);
@@ -153,5 +154,8 @@ section > div > img:nth-child(2) {
   }
   article > div:nth-child(4) {
     padding: 20px 0;
+  }
+  article > div > span:nth-child(2) {
+    margin-right: 115px;
   }
 }
